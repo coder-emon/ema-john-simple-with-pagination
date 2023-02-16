@@ -1,0 +1,22 @@
+.orders-container{
+    display: grid;
+    grid-template-columns: 700px 500px;
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: center; 
+    margin: 100px 0;
+}
+
+.review-cart-container{
+    position: fixed;
+    top: 25%;
+    bottom: 100px;
+    left: 70%;
+}
+.review-cart{
+    
+    padding: 30px;
+    border-radius: 5px;
+    background: rgba(255, 153, 0, 0.3);
+}
+
