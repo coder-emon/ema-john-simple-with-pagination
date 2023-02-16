@@ -13,3 +13,35 @@
 .cart-container{
     background: rgba(255, 153, 0, 0.3);
 }
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0
+}
+.pagination{
+    background-color: rgb(25, 122, 233);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor:pointer;
+    color:white;
+    margin-right: 5px;
+}
+.next_prev{
+    background-color: rgb(17, 44, 167);
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor:pointer;
+    color:white;
+    margin-right: 5px;
+}
+.selceted{
+    background-color: #18163a;
+    padding: 4px 8px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor:pointer;
+    color:white;
+    margin-right: 5px;
+}

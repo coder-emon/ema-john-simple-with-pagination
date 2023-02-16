@@ -4,7 +4,7 @@ import { faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import "./ReviewItem.css";
 const ReviewItem = ({ product, handleDeleteItem }) => {
-  const { img, name, price, quantity, shipping, id } = product;
+  const { img, name, price, quantity, shipping, _id } = product;
 
   return (
     <div className="review-item">
@@ -17,7 +17,7 @@ const ReviewItem = ({ product, handleDeleteItem }) => {
           <p>Shipping: {shipping}</p>
         </div>
 
-        <div className="delete-btn-wraper" onClick={() => handleDeleteItem(id)}>
+        <div className="delete-btn-wraper" onClick={() => handleDeleteItem(_id)}>
           <FontAwesomeIcon
             className="delete-btn"
             icon={faTrashCan}
